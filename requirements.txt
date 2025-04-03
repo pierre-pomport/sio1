@@ -1,5 +1,4 @@
 pip==25.0.1
 pygame==2.5.2
-python -m pip install pygame==2.5.2
 python -m pip install --upgrade pip
-python -m pip install pygame --no-build-isolation
+python -m pip install -r requirements.txt
