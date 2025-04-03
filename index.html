@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meat Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <h1>Meat Clicker</h1>
+            <div class="stats">
+                <div class="meat-count">🥩 <span id="meatCount">0</span> kg de viande</div>
+                <div class="meat-per-second">Par seconde: <span id="meatPerSecond">0</span> kg/s</div>
+                <div class="prestige">Prestige Points: <span id="prestigePoints">0</span></div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="clicker-section">
+                <div id="meatClicker" class="meat-clicker">
+                    <img src="https://em-content.zobj.net/source/microsoft-teams/337/cut-of-meat_1f969.png" alt="Viande" class="meat-image">
+                </div>
+            </div>
+
+            <div class="upgrades-section">
+                <h2>Améliorations</h2>
+                <div id="upgradesList" class="upgrades-list">
+                    <!-- Les améliorations seront ajoutées ici dynamiquement -->
+                </div>
+            </div>
+
+            <div class="prestige-section">
+                <h2>Prestige</h2>
+                <button id="prestigeButton" class="prestige-button" disabled>Prestige (Nécessite 1M de viande)</button>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html> 
